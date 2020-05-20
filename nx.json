@@ -25,6 +25,47 @@
     "ngnx-e2e": {
       "tags": [],
       "implicitDependencies": ["ngnx"]
+    },
+    "calendar-app": {
+      "tags": []
+    },
+    "calendar-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["calendar-app"]
+    },
+    "todolist1": {
+      "tags": []
+    },
+    "todolist1-e2e": {
+      "tags": [],
+      "implicitDependencies": ["todolist1"]
+    },
+    "data": {
+      "tags": []
+    },
+    "todolistrx": {
+      "tags": []
+    },
+    "todolistrx-e2e": {
+      "tags": [],
+      "implicitDependencies": ["todolistrx"]
+    },
+    "angular-tour-of-heroes": {
+      "tags": []
+    },
+    "angular-tour-of-heroes-e2e": {
+      "tags": [],
+      "implicitDependencies": ["angular-tour-of-heroes"]
+    },
+    "weather-app": {
+      "tags": []
+    },
+    "weather-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["weather-app"]
+    },
+    "weather-app-api": {
+      "tags": []
     }
   }
 }

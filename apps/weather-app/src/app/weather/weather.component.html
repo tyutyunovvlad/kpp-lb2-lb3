@@ -1,0 +1,12 @@
+<div class="infoWeath">
+    
+        <div *ngIf="state.city">
+            <p>Location: {{state.city}}, {{state.country}}</p>
+            <p>Temperature: {{state.temp}}</p>
+            <p>Pressure: {{state.pressure}}</p>
+            <p>SunSet: {{state.sunset}}</p>
+        </div>
+    
+        <p class="error" *ngIf="error">{{state.error}}</p>
+    
+</div>

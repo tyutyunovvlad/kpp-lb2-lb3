@@ -1,0 +1,17 @@
+
+<div class="loader" *ngIf="isLoading"></div>
+<mgl-map
+    [style] = "'mapbox://styles/fildran/ck9rbhect2dsl1is4oid7g0gt'"
+    [zoom]="[1.5]"
+    [center]="[0, 25]"
+  >
+  <!-- [style]="'mapbox://styles/mapbox/navigation-v7'" -->
+  <!-- (click)="mapClick($event)" -->
+
+  <mgl-marker *ngFor="let city of cities" [lngLat]="[city.coordLog, city.coordLat]">
+    <div class="marker" (click)="showInfo($event)">
+      <img class="img" src="https://www.countryflags.io/{{city.flag}}/flat/24.png">
+      <div class="cityInfo">{{city.flag}}</div>
+    </div>
+  </mgl-marker>
+</mgl-map>

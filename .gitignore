@@ -37,3 +37,11 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+apps/calendar-app
+apps/calendar-app-e2e
+apps/ngnx
+apps/ngnx-e2e
+apps/todolist1
+apps/todolist1-e2e
+apps/todolistrx

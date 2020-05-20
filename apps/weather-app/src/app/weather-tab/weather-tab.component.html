@@ -1,0 +1,18 @@
+<div class="wrapper">
+    <div class="main">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-5 info">
+            <pract-info></pract-info>
+          </div>
+          <div class="col-sm-7 form">
+            <pract-form (onGetWeather)="getWeather($event)"></pract-form>
+            <pract-weather [state]="state" [error]="error"></pract-weather>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+   
+  </div>
