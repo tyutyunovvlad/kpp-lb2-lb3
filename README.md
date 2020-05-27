@@ -6,3 +6,4 @@
 Аплікація буде доступна на localhost:4200
 
 ![alttext](./Selection_020.png)
+![alttext](./Selection_021.png)
